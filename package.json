@@ -1,0 +1,24 @@
+{
+	"name": "laravel-mix-simple-output",
+	"version": "1.0.0",
+	"description": "A simple Laravel Mix extension to make your console cleaner",
+	"main": "index.js",
+	"scripts": {},
+	"keywords": [
+		"laravel",
+		"laravel mix",
+		"mix",
+		"console",
+		"simple console",
+		"clean console"
+	],
+	"author": "Andrey Umrilov <gogamerfly@gmail.com>",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/Freezon/laravel-mix-simple-output/issues"
+	},
+	"homepage": "https://github.com/Freezon/laravel-mix-simple-output#readme",
+	"devDependencies": {
+		"laravel-mix": "^6.0.29"
+	}
+}
