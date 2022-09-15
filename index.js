@@ -45,7 +45,7 @@ class SimpleOutputPlugin {
         let {reset, gray} = this.colors,
             cleanTextSize = (this.ouputedText + text).replace(/\u001B\[.*?m/ig, '').length + 2,
             dotsSize = Math.max(Math.min(process.stdout.columns, 150) - cleanTextSize, 0),
-            dots = (new Array(dotsSize)).fill('.').join('');
+            dots = (new Array(isNaN(dotsSize) ? 0 : dotsSize)).fill('.').join('');
 
         console.log(`${this.outputed ? "\n" + this.ouputedText : ''}${gray}${dots}${text}${reset}\n`);
         this.outputed = true;
