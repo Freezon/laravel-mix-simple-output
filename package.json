@@ -1,6 +1,6 @@
 {
 	"name": "laravel-mix-simple-output",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple Laravel Mix extension to make your console cleaner",
 	"main": "index.js",
 	"scripts": {},
